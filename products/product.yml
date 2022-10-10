@@ -1,0 +1,36 @@
+name: LISS3
+description: Resourcesat-1 LISS-III Data
+metadata_type: eo3
+
+metadata:
+    product:
+       name: 85.75E20.25N_F45T15_20oct09
+    # Alternatively, include specific items to match
+    # properties:
+        # eo:instrument: LISS-III
+        # eo:platform: Resourcesat-1
+
+measurements:
+    - name: 'green'
+      aliases: [band2]
+      dtype: uint8
+      nodata: ''
+      units: ''
+      
+    - name: 'red'
+      aliases: [band3]
+      dtype: uint8
+      nodata: ''
+      units: ''
+      
+    - name: 'nir'
+      aliases: [band4]
+      dtype: uint8
+      nodata: ''
+      units: ''
+      
+    - name: 'swir'
+      aliases: [band5]
+      dtype: uint16
+      nodata: ''
+      units: ''

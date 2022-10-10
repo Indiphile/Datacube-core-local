@@ -1,0 +1,4351 @@
+id: 2c681813-4766-4597-8775-8e70b18eb266
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E23S32-20150421-080838-P-SEN-SPOT7_20211116_09201515z8wayjuam8n_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [702523, 6426072],
+      [725580, 6426072],
+      [725580, 6396036],
+      [702523, 6396036],
+      [702523, 6426072]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [20024, 15371]
+    transform:
+      - 1.5
+      - 0.0
+      - 702523.5
+      - 0.0
+      - -1.5
+      - 6426072.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E23S32-20150421-080838-P-SEN-SPOT7_20211116_09201515z8wayjuam8n_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E23S32-20150421-080838-P-SEN-SPOT7_20211116_09201515z8wayjuam8n_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E23S32-20150421-080838-P-SEN-SPOT7_20211116_09201515z8wayjuam8n_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E23S32-20150421-080838-P-SEN-SPOT7_20211116_09201515z8wayjuam8n_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E23S32-20150421-080838-P-SEN-SPOT7_20211116_09201515z8wayjuam8n_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-21T08:08:38.559034Z'
+  odc:processing_datetime: '2021-11-16T13:29:27.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 0c02040f-1caa-4bd8-b4d8-6beb8ed28221
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E23S33-20150326-080858-P-SEN-SPOT7_20211116_0837071btf2sbyfcl9y_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [679471, 6402625],
+      [725196, 6402625],
+      [725196, 6342324],
+      [679471, 6342324],
+      [679471, 6402625]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [40201, 30483]
+    transform:
+      - 1.5
+      - 0.0
+      - 679471.5
+      - 0.0
+      - -1.5
+      - 6402625.5
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E23S33-20150326-080858-P-SEN-SPOT7_20211116_0837071btf2sbyfcl9y_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E23S33-20150326-080858-P-SEN-SPOT7_20211116_0837071btf2sbyfcl9y_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E23S33-20150326-080858-P-SEN-SPOT7_20211116_0837071btf2sbyfcl9y_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E23S33-20150326-080858-P-SEN-SPOT7_20211116_0837071btf2sbyfcl9y_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E23S33-20150326-080858-P-SEN-SPOT7_20211116_0837071btf2sbyfcl9y_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-03-26T08:08:58.705764Z'
+  odc:processing_datetime: '2021-11-16T09:28:27.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 78915027-4638-4a01-be88-33492a356d2d
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E23S33-20150402-080447-P-SEN-SPOT7_20211116_08391419w7ph1nqsh9a_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [679603, 6403074],
+      [724170, 6403074],
+      [724170, 6341208],
+      [679603, 6341208],
+      [679603, 6403074]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [41244, 29711]
+    transform:
+      - 1.5
+      - 0.0
+      - 679603.5
+      - 0.0
+      - -1.5
+      - 6403074.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E23S33-20150402-080447-P-SEN-SPOT7_20211116_08391419w7ph1nqsh9a_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E23S33-20150402-080447-P-SEN-SPOT7_20211116_08391419w7ph1nqsh9a_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E23S33-20150402-080447-P-SEN-SPOT7_20211116_08391419w7ph1nqsh9a_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E23S33-20150402-080447-P-SEN-SPOT7_20211116_08391419w7ph1nqsh9a_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E23S33-20150402-080447-P-SEN-SPOT7_20211116_08391419w7ph1nqsh9a_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-02T08:04:47.329546Z'
+  odc:processing_datetime: '2021-11-16T09:55:36.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: b83f4e77-ba9e-4052-a101-c3021ee56160
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E23S33-20170712-080202-P-SEN-SPOT7_20210212_0740261ihi274fnnqo0_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [680031, 6401740],
+      [704850, 6401740],
+      [704850, 6343542],
+      [680031, 6343542],
+      [680031, 6401740]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [38799, 16546]
+    transform:
+      - 1.5
+      - 0.0
+      - 680031.0
+      - 0.0
+      - -1.5
+      - 6401740.5
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E23S33-20170712-080202-P-SEN-SPOT7_20210212_0740261ihi274fnnqo0_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E23S33-20170712-080202-P-SEN-SPOT7_20210212_0740261ihi274fnnqo0_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E23S33-20170712-080202-P-SEN-SPOT7_20210212_0740261ihi274fnnqo0_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E23S33-20170712-080202-P-SEN-SPOT7_20210212_0740261ihi274fnnqo0_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E23S33-20170712-080202-P-SEN-SPOT7_20210212_0740261ihi274fnnqo0_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2017-07-12T08:02:02.696675Z'
+  odc:processing_datetime: '2021-02-12T09:10:00.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 738ed50c-1f63-4bc8-88a6-13c602edada4
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E23S33-20180620-081639-P-SEN-SPOT7_20210212_1732561l6478di0jlov_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [640150, 6399049],
+      [706476, 6399049],
+      [706476, 6330120],
+      [640150, 6330120],
+      [640150, 6399049]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [45953, 44217]
+    transform:
+      - 1.5
+      - 0.0
+      - 640150.5
+      - 0.0
+      - -1.5
+      - 6399049.5
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E23S33-20180620-081639-P-SEN-SPOT7_20210212_1732561l6478di0jlov_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E23S33-20180620-081639-P-SEN-SPOT7_20210212_1732561l6478di0jlov_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E23S33-20180620-081639-P-SEN-SPOT7_20210212_1732561l6478di0jlov_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E23S33-20180620-081639-P-SEN-SPOT7_20210212_1732561l6478di0jlov_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E23S33-20180620-081639-P-SEN-SPOT7_20210212_1732561l6478di0jlov_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2018-06-20T08:16:39.968540Z'
+  odc:processing_datetime: '2021-02-12T18:16:31.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: a99d83fa-985f-4583-a0e1-1c5ae4d98c54
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E24S32-20150319-081241-P-SEN-SPOT7_20211116_0822531e0fhukzvqcgz_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [712416, 6456811],
+      [780966, 6456811],
+      [780966, 6384840],
+      [712416, 6384840],
+      [712416, 6456811]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [47981, 45700]
+    transform:
+      - 1.5
+      - 0.0
+      - 712416.0
+      - 0.0
+      - -1.5
+      - 6456811.5
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S32-20150319-081241-P-SEN-SPOT7_20211116_0822531e0fhukzvqcgz_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S32-20150319-081241-P-SEN-SPOT7_20211116_0822531e0fhukzvqcgz_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S32-20150319-081241-P-SEN-SPOT7_20211116_0822531e0fhukzvqcgz_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S32-20150319-081241-P-SEN-SPOT7_20211116_0822531e0fhukzvqcgz_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S32-20150319-081241-P-SEN-SPOT7_20211116_0822531e0fhukzvqcgz_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-03-19T08:12:41.165929Z'
+  odc:processing_datetime: '2021-11-16T08:48:36.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: d883345d-10e9-4e64-a074-a510a0496ee0
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E24S32-20150402-080330-P-SEN-SPOT7_20211116_08383512cwzoduh4nz6_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [713241, 6525711],
+      [782082, 6525711],
+      [782082, 6447492],
+      [713241, 6447492],
+      [713241, 6525711]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [52146, 45894]
+    transform:
+      - 1.5
+      - 0.0
+      - 713241.0
+      - 0.0
+      - -1.5
+      - 6525711.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S32-20150402-080330-P-SEN-SPOT7_20211116_08383512cwzoduh4nz6_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S32-20150402-080330-P-SEN-SPOT7_20211116_08383512cwzoduh4nz6_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S32-20150402-080330-P-SEN-SPOT7_20211116_08383512cwzoduh4nz6_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S32-20150402-080330-P-SEN-SPOT7_20211116_08383512cwzoduh4nz6_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S32-20150402-080330-P-SEN-SPOT7_20211116_08383512cwzoduh4nz6_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-02T08:03:30.106038Z'
+  odc:processing_datetime: '2021-11-16T10:19:27.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 720bf813-4372-4032-9fc6-9d480c414de5
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E24S32-20150414-081204-P-SEN-SPOT7_20211116_0854171pri13cqo2g5n_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [753769, 6472098],
+      [780240, 6472098],
+      [780240, 6449844],
+      [753769, 6449844],
+      [753769, 6472098]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [14836, 17647]
+    transform:
+      - 1.5
+      - 0.0
+      - 753769.5
+      - 0.0
+      - -1.5
+      - 6472098.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S32-20150414-081204-P-SEN-SPOT7_20211116_0854171pri13cqo2g5n_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S32-20150414-081204-P-SEN-SPOT7_20211116_0854171pri13cqo2g5n_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S32-20150414-081204-P-SEN-SPOT7_20211116_0854171pri13cqo2g5n_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S32-20150414-081204-P-SEN-SPOT7_20211116_0854171pri13cqo2g5n_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S32-20150414-081204-P-SEN-SPOT7_20211116_0854171pri13cqo2g5n_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-14T08:12:04.378194Z'
+  odc:processing_datetime: '2021-11-16T12:02:53.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: f48fbb68-27be-4c6f-84b4-8a9fbd811900
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E24S32-20170628-080922-P-SEN-SPOT7_20210212_07515710ek96ppd1ot3_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [186937, 6501648],
+      [246216, 6501648],
+      [246216, 6449112],
+      [186937, 6449112],
+      [186937, 6501648]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [35024, 39519]
+    transform:
+      - 1.5
+      - 0.0
+      - 186937.5
+      - 0.0
+      - -1.5
+      - 6501648.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S32-20170628-080922-P-SEN-SPOT7_20210212_07515710ek96ppd1ot3_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S32-20170628-080922-P-SEN-SPOT7_20210212_07515710ek96ppd1ot3_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S32-20170628-080922-P-SEN-SPOT7_20210212_07515710ek96ppd1ot3_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S32-20170628-080922-P-SEN-SPOT7_20210212_07515710ek96ppd1ot3_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S32-20170628-080922-P-SEN-SPOT7_20210212_07515710ek96ppd1ot3_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2017-06-28T08:09:22.296587Z'
+  odc:processing_datetime: '2021-02-12T11:47:00.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 2fd3b6f1-6950-4274-ac89-3ffad2f43258
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E24S32-20171112-080801-P-SEN-SPOT7_20210212_1233001qsrf0tlatzaj_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [753466, 6453565],
+      [758100, 6453565],
+      [758100, 6449530],
+      [753466, 6449530],
+      [753466, 6453565]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [2690, 3089]
+    transform:
+      - 1.5
+      - 0.0
+      - 753466.5
+      - 0.0
+      - -1.5
+      - 6453565.5
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S32-20171112-080801-P-SEN-SPOT7_20210212_1233001qsrf0tlatzaj_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S32-20171112-080801-P-SEN-SPOT7_20210212_1233001qsrf0tlatzaj_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S32-20171112-080801-P-SEN-SPOT7_20210212_1233001qsrf0tlatzaj_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S32-20171112-080801-P-SEN-SPOT7_20210212_1233001qsrf0tlatzaj_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S32-20171112-080801-P-SEN-SPOT7_20210212_1233001qsrf0tlatzaj_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2017-11-12T08:08:01.807664Z'
+  odc:processing_datetime: '2021-02-12T14:52:49.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 5b952794-e74e-4e20-9398-02c19d257404
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E24S33-20150319-081250-P-SEN-SPOT7_20211116_08230618isj1f9gfrtv_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [710460, 6387679],
+      [779788, 6387679],
+      [779788, 6315501],
+      [710460, 6315501],
+      [710460, 6387679]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [48119, 46219]
+    transform:
+      - 1.5
+      - 0.0
+      - 710460.0
+      - 0.0
+      - -1.5
+      - 6387679.5
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S33-20150319-081250-P-SEN-SPOT7_20211116_08230618isj1f9gfrtv_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S33-20150319-081250-P-SEN-SPOT7_20211116_08230618isj1f9gfrtv_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S33-20150319-081250-P-SEN-SPOT7_20211116_08230618isj1f9gfrtv_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S33-20150319-081250-P-SEN-SPOT7_20211116_08230618isj1f9gfrtv_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S33-20150319-081250-P-SEN-SPOT7_20211116_08230618isj1f9gfrtv_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-03-19T08:12:50.422493Z'
+  odc:processing_datetime: '2021-11-16T08:50:33.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 4c685133-51d3-47b9-9e6a-28afff3f9d9a
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E24S33-20150319-081254-P-SEN-SPOT7_20211116_082313124w1ycgfcafl_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [710460, 6359133],
+      [779242, 6359133],
+      [779242, 6315498],
+      [710460, 6315498],
+      [710460, 6359133]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [29090, 45855]
+    transform:
+      - 1.5
+      - 0.0
+      - 710460.0
+      - 0.0
+      - -1.5
+      - 6359133.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S33-20150319-081254-P-SEN-SPOT7_20211116_082313124w1ycgfcafl_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S33-20150319-081254-P-SEN-SPOT7_20211116_082313124w1ycgfcafl_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S33-20150319-081254-P-SEN-SPOT7_20211116_082313124w1ycgfcafl_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S33-20150319-081254-P-SEN-SPOT7_20211116_082313124w1ycgfcafl_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S33-20150319-081254-P-SEN-SPOT7_20211116_082313124w1ycgfcafl_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-03-19T08:12:50.422493Z'
+  odc:processing_datetime: '20211116'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: bef7f6c5-6af4-4523-ac91-fc09d41f5a88
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E24S34-20150402-080521-P-SEN-SPOT7_20211116_0839421qhzdmt8adwhi_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [709056, 6294688],
+      [776256, 6294688],
+      [776256, 6233274],
+      [709056, 6233274],
+      [709056, 6294688]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [40943, 44800]
+    transform:
+      - 1.5
+      - 0.0
+      - 709056.0
+      - 0.0
+      - -1.5
+      - 6294688.5
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20150402-080521-P-SEN-SPOT7_20211116_0839421qhzdmt8adwhi_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20150402-080521-P-SEN-SPOT7_20211116_0839421qhzdmt8adwhi_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20150402-080521-P-SEN-SPOT7_20211116_0839421qhzdmt8adwhi_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20150402-080521-P-SEN-SPOT7_20211116_0839421qhzdmt8adwhi_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20150402-080521-P-SEN-SPOT7_20211116_0839421qhzdmt8adwhi_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-02T08:05:21.695241Z'
+  odc:processing_datetime: '2021-11-16T10:32:59.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: ac560074-abf6-49ae-b591-f00af545a44c
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E24S34-20150524-080414-P-SEN-SPOT7_20211116_0933261sm1ocefq82rb_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [711318, 6295443],
+      [773652, 6295443],
+      [773652, 6234132],
+      [711318, 6234132],
+      [711318, 6295443]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [40874, 41556]
+    transform:
+      - 1.5
+      - 0.0
+      - 711318.0
+      - 0.0
+      - -1.5
+      - 6295443.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20150524-080414-P-SEN-SPOT7_20211116_0933261sm1ocefq82rb_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20150524-080414-P-SEN-SPOT7_20211116_0933261sm1ocefq82rb_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20150524-080414-P-SEN-SPOT7_20211116_0933261sm1ocefq82rb_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20150524-080414-P-SEN-SPOT7_20211116_0933261sm1ocefq82rb_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20150524-080414-P-SEN-SPOT7_20211116_0933261sm1ocefq82rb_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-05-24T08:04:14.457634Z'
+  odc:processing_datetime: '2021-11-16T16:16:52.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: a6f96163-5e7e-484e-9bfd-7d33bf0da89c
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E24S34-20150612-080752-P-SEN-SPOT7_20211116_0934031hmcvgydprjb5_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [710701, 6294424],
+      [774198, 6294424],
+      [774198, 6233886],
+      [710701, 6233886],
+      [710701, 6294424]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [40359, 42331]
+    transform:
+      - 1.5
+      - 0.0
+      - 710701.5
+      - 0.0
+      - -1.5
+      - 6294424.5
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20150612-080752-P-SEN-SPOT7_20211116_0934031hmcvgydprjb5_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20150612-080752-P-SEN-SPOT7_20211116_0934031hmcvgydprjb5_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20150612-080752-P-SEN-SPOT7_20211116_0934031hmcvgydprjb5_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20150612-080752-P-SEN-SPOT7_20211116_0934031hmcvgydprjb5_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20150612-080752-P-SEN-SPOT7_20211116_0934031hmcvgydprjb5_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-06-12T08:07:52.914126Z'
+  odc:processing_datetime: '2021-11-16T16:08:59.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 7cbde541-e7e9-413d-9ca5-eca972e3acf7
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E24S34-20150619-080359-P-SEN-SPOT7_20211116_0934181drdy74npylc1_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [711295, 6294946],
+      [773610, 6294946],
+      [773610, 6234132],
+      [711295, 6234132],
+      [711295, 6294946]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [40543, 41543]
+    transform:
+      - 1.5
+      - 0.0
+      - 711295.5
+      - 0.0
+      - -1.5
+      - 6294946.5
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20150619-080359-P-SEN-SPOT7_20211116_0934181drdy74npylc1_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20150619-080359-P-SEN-SPOT7_20211116_0934181drdy74npylc1_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20150619-080359-P-SEN-SPOT7_20211116_0934181drdy74npylc1_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20150619-080359-P-SEN-SPOT7_20211116_0934181drdy74npylc1_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20150619-080359-P-SEN-SPOT7_20211116_0934181drdy74npylc1_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-06-19T08:03:59.351515Z'
+  odc:processing_datetime: '2021-11-16T16:28:30.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 5b489201-0571-4fb9-8336-d63ff23c38bc
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E24S34-20150626-080004-P-SEN-SPOT7_20211116_09344518wwlys6ruw07_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [710514, 6294519],
+      [773766, 6294519],
+      [773766, 6234168],
+      [710514, 6234168],
+      [710514, 6294519]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [40234, 42168]
+    transform:
+      - 1.5
+      - 0.0
+      - 710514.0
+      - 0.0
+      - -1.5
+      - 6294519.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20150626-080004-P-SEN-SPOT7_20211116_09344518wwlys6ruw07_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20150626-080004-P-SEN-SPOT7_20211116_09344518wwlys6ruw07_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20150626-080004-P-SEN-SPOT7_20211116_09344518wwlys6ruw07_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20150626-080004-P-SEN-SPOT7_20211116_09344518wwlys6ruw07_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20150626-080004-P-SEN-SPOT7_20211116_09344518wwlys6ruw07_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-06-26T08:00:04.763508Z'
+  odc:processing_datetime: '2021-11-16T16:22:13.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 541be123-8cbe-48cc-87f8-785dca065132
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E24S34-20171119-080444-P-SEN-SPOT7_20210212_123853148ck09yty1hd_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [751923, 6239938],
+      [784266, 6239938],
+      [784266, 6230640],
+      [751923, 6230640],
+      [751923, 6239938]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [6199, 21562]
+    transform:
+      - 1.5
+      - 0.0
+      - 751923.0
+      - 0.0
+      - -1.5
+      - 6239938.5
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20171119-080444-P-SEN-SPOT7_20210212_123853148ck09yty1hd_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20171119-080444-P-SEN-SPOT7_20210212_123853148ck09yty1hd_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20171119-080444-P-SEN-SPOT7_20210212_123853148ck09yty1hd_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20171119-080444-P-SEN-SPOT7_20210212_123853148ck09yty1hd_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20171119-080444-P-SEN-SPOT7_20210212_123853148ck09yty1hd_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2017-11-19T08:04:44.415471Z'
+  odc:processing_datetime: '2021-02-12T15:56:50.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 6c733cfe-fa27-4868-b619-02629aacf28c
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E24S34-20180620-081700-P-SEN-SPOT7_20210212_1739071qcimyyih9xow_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [718308, 6294312],
+      [792090, 6294312],
+      [792090, 6247332],
+      [718308, 6247332],
+      [718308, 6294312]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [31320, 49188]
+    transform:
+      - 1.5
+      - 0.0
+      - 718308.0
+      - 0.0
+      - -1.5
+      - 6294312.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20180620-081700-P-SEN-SPOT7_20210212_1739071qcimyyih9xow_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20180620-081700-P-SEN-SPOT7_20210212_1739071qcimyyih9xow_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20180620-081700-P-SEN-SPOT7_20210212_1739071qcimyyih9xow_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20180620-081700-P-SEN-SPOT7_20210212_1739071qcimyyih9xow_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E24S34-20180620-081700-P-SEN-SPOT7_20210212_1739071qcimyyih9xow_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2018-06-20T08:17:00.950500Z'
+  odc:processing_datetime: '2021-02-12T19:24:26.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 3060b3ab-68bd-4045-98f3-717a88df3094
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E25S31-20150409-080024-P-SEN-SPOT7_20211116_0841131nb1n4c5qlqhf_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [306439, 6626296],
+      [369198, 6626296],
+      [369198, 6558594],
+      [306439, 6558594],
+      [306439, 6626296]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [45135, 41839]
+    transform:
+      - 1.5
+      - 0.0
+      - 306439.5
+      - 0.0
+      - -1.5
+      - 6626296.5
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S31-20150409-080024-P-SEN-SPOT7_20211116_0841131nb1n4c5qlqhf_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S31-20150409-080024-P-SEN-SPOT7_20211116_0841131nb1n4c5qlqhf_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S31-20150409-080024-P-SEN-SPOT7_20211116_0841131nb1n4c5qlqhf_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S31-20150409-080024-P-SEN-SPOT7_20211116_0841131nb1n4c5qlqhf_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S31-20150409-080024-P-SEN-SPOT7_20211116_0841131nb1n4c5qlqhf_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-09T08:00:24.924117Z'
+  odc:processing_datetime: '2021-11-16T10:59:23.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: d8ad17b7-3927-4e6f-b226-c9685b7e244e
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E25S31-20150409-080034-P-SEN-SPOT7_20211116_0841261cbqzqimcddsf_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [307447, 6560430],
+      [369198, 6560430],
+      [369198, 6558594],
+      [307447, 6558594],
+      [307447, 6560430]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [1224, 41167]
+    transform:
+      - 1.5
+      - 0.0
+      - 307447.5
+      - 0.0
+      - -1.5
+      - 6560430.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S31-20150409-080034-P-SEN-SPOT7_20211116_0841261cbqzqimcddsf_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S31-20150409-080034-P-SEN-SPOT7_20211116_0841261cbqzqimcddsf_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S31-20150409-080034-P-SEN-SPOT7_20211116_0841261cbqzqimcddsf_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S31-20150409-080034-P-SEN-SPOT7_20211116_0841261cbqzqimcddsf_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S31-20150409-080034-P-SEN-SPOT7_20211116_0841261cbqzqimcddsf_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-09T08:00:24.924117Z'
+  odc:processing_datetime: '20211116'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 837a2be2-dc39-412d-bf21-562dc43c9fd1
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E25S31-20150409-080034-P-SEN-SPOT7_20211116_0841261erd1zpi2dm93_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [307449, 6560430],
+      [369198, 6560430],
+      [369198, 6558594],
+      [307449, 6558594],
+      [307449, 6560430]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [1224, 41166]
+    transform:
+      - 1.5
+      - 0.0
+      - 307449.0
+      - 0.0
+      - -1.5
+      - 6560430.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S31-20150409-080034-P-SEN-SPOT7_20211116_0841261erd1zpi2dm93_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S31-20150409-080034-P-SEN-SPOT7_20211116_0841261erd1zpi2dm93_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S31-20150409-080034-P-SEN-SPOT7_20211116_0841261erd1zpi2dm93_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S31-20150409-080034-P-SEN-SPOT7_20211116_0841261erd1zpi2dm93_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S31-20150409-080034-P-SEN-SPOT7_20211116_0841261erd1zpi2dm93_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-09T08:00:24.924117Z'
+  odc:processing_datetime: '20211116'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 70babd1f-fcf0-4f46-a680-84fe3412cbfb
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E25S31-20171024-080249-P-SEN-SPOT7_20210212_1227261406azmwdykwe_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [229162, 6609222],
+      [297570, 6609222],
+      [297570, 6528498],
+      [229162, 6528498],
+      [229162, 6609222]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [53816, 45605]
+    transform:
+      - 1.5
+      - 0.0
+      - 229162.5
+      - 0.0
+      - -1.5
+      - 6609222.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S31-20171024-080249-P-SEN-SPOT7_20210212_1227261406azmwdykwe_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S31-20171024-080249-P-SEN-SPOT7_20210212_1227261406azmwdykwe_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S31-20171024-080249-P-SEN-SPOT7_20210212_1227261406azmwdykwe_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S31-20171024-080249-P-SEN-SPOT7_20210212_1227261406azmwdykwe_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S31-20171024-080249-P-SEN-SPOT7_20210212_1227261406azmwdykwe_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2017-10-24T08:02:49.124159Z'
+  odc:processing_datetime: '2021-02-12T13:40:13.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: f1af3efa-cd7a-4ec1-b407-b211e274eabc
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E25S32-20150423-075309-P-SEN-SPOT7_20211116_0922411aui4cxxgrexo_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [252897, 6469368],
+      [319440, 6469368],
+      [319440, 6444282],
+      [252897, 6444282],
+      [252897, 6469368]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [16724, 44362]
+    transform:
+      - 1.5
+      - 0.0
+      - 252897.0
+      - 0.0
+      - -1.5
+      - 6469368.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S32-20150423-075309-P-SEN-SPOT7_20211116_0922411aui4cxxgrexo_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S32-20150423-075309-P-SEN-SPOT7_20211116_0922411aui4cxxgrexo_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S32-20150423-075309-P-SEN-SPOT7_20211116_0922411aui4cxxgrexo_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S32-20150423-075309-P-SEN-SPOT7_20211116_0922411aui4cxxgrexo_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S32-20150423-075309-P-SEN-SPOT7_20211116_0922411aui4cxxgrexo_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-23T07:53:03.295025Z'
+  odc:processing_datetime: '20211116'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: e8bbe74e-8445-44a2-b1c2-a1ac8eb5bc90
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E25S33-20150428-080445-P-SEN-SPOT7_20211116_0925401egsanp141plf_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [255945, 6392958],
+      [322350, 6392958],
+      [322350, 6319212],
+      [255945, 6319212],
+      [255945, 6392958]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [49164, 44270]
+    transform:
+      - 1.5
+      - 0.0
+      - 255945.0
+      - 0.0
+      - -1.5
+      - 6392958.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S33-20150428-080445-P-SEN-SPOT7_20211116_0925401egsanp141plf_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S33-20150428-080445-P-SEN-SPOT7_20211116_0925401egsanp141plf_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S33-20150428-080445-P-SEN-SPOT7_20211116_0925401egsanp141plf_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S33-20150428-080445-P-SEN-SPOT7_20211116_0925401egsanp141plf_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S33-20150428-080445-P-SEN-SPOT7_20211116_0925401egsanp141plf_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-28T08:04:45.796555Z'
+  odc:processing_datetime: '2021-11-16T14:39:07.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 26d99f19-a2d5-48f7-b1d6-e28c0105d6be
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E25S33-20150428-080445-P-SEN-SPOT7_20211116_0925401u5i8pqupoud9_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [255945, 6392958],
+      [322350, 6392958],
+      [322350, 6319212],
+      [255945, 6319212],
+      [255945, 6392958]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [49164, 44270]
+    transform:
+      - 1.5
+      - 0.0
+      - 255945.0
+      - 0.0
+      - -1.5
+      - 6392958.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S33-20150428-080445-P-SEN-SPOT7_20211116_0925401u5i8pqupoud9_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S33-20150428-080445-P-SEN-SPOT7_20211116_0925401u5i8pqupoud9_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S33-20150428-080445-P-SEN-SPOT7_20211116_0925401u5i8pqupoud9_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S33-20150428-080445-P-SEN-SPOT7_20211116_0925401u5i8pqupoud9_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S33-20150428-080445-P-SEN-SPOT7_20211116_0925401u5i8pqupoud9_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-28T08:04:45.796555Z'
+  odc:processing_datetime: '20211116'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: c5464998-0d60-4378-9229-0d9014513b34
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E25S33-20170623-075915-P-SEN-SPOT7_20210212_0749241r0x08phkop4l_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [235545, 6364060],
+      [302382, 6364060],
+      [302382, 6304878],
+      [235545, 6304878],
+      [235545, 6364060]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [39455, 44558]
+    transform:
+      - 1.5
+      - 0.0
+      - 235545.0
+      - 0.0
+      - -1.5
+      - 6364060.5
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S33-20170623-075915-P-SEN-SPOT7_20210212_0749241r0x08phkop4l_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S33-20170623-075915-P-SEN-SPOT7_20210212_0749241r0x08phkop4l_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S33-20170623-075915-P-SEN-SPOT7_20210212_0749241r0x08phkop4l_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S33-20170623-075915-P-SEN-SPOT7_20210212_0749241r0x08phkop4l_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S33-20170623-075915-P-SEN-SPOT7_20210212_0749241r0x08phkop4l_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2017-06-23T07:59:13.474113Z'
+  odc:processing_datetime: '20210212'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: e1f6bc89-02dd-46b5-8bd4-5486a87d7d2a
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E25S33-20180615-080521-P-SEN-SPOT7_20210212_1734031gf1wj39f19fa_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [288400, 6403246],
+      [352476, 6403246],
+      [352476, 6343368],
+      [288400, 6343368],
+      [288400, 6403246]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [39919, 42717]
+    transform:
+      - 1.5
+      - 0.0
+      - 288400.5
+      - 0.0
+      - -1.5
+      - 6403246.5
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S33-20180615-080521-P-SEN-SPOT7_20210212_1734031gf1wj39f19fa_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S33-20180615-080521-P-SEN-SPOT7_20210212_1734031gf1wj39f19fa_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S33-20180615-080521-P-SEN-SPOT7_20210212_1734031gf1wj39f19fa_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S33-20180615-080521-P-SEN-SPOT7_20210212_1734031gf1wj39f19fa_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S33-20180615-080521-P-SEN-SPOT7_20210212_1734031gf1wj39f19fa_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2018-06-15T08:05:21.262289Z'
+  odc:processing_datetime: '2021-02-12T18:53:33.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: d84b3ad6-f08c-4b3d-8047-b9d978d0210c
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E25S33-20180622-080101-P-SEN-SPOT7_20210212_173500194padijrjfdr_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [287661, 6420591],
+      [352158, 6420591],
+      [352158, 6349135],
+      [287661, 6349135],
+      [287661, 6420591]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [47637, 42998]
+    transform:
+      - 1.5
+      - 0.0
+      - 287661.0
+      - 0.0
+      - -1.5
+      - 6420591.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S33-20180622-080101-P-SEN-SPOT7_20210212_173500194padijrjfdr_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S33-20180622-080101-P-SEN-SPOT7_20210212_173500194padijrjfdr_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S33-20180622-080101-P-SEN-SPOT7_20210212_173500194padijrjfdr_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S33-20180622-080101-P-SEN-SPOT7_20210212_173500194padijrjfdr_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S33-20180622-080101-P-SEN-SPOT7_20210212_173500194padijrjfdr_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2018-06-22T08:01:01.599203Z'
+  odc:processing_datetime: '2021-02-12T19:01:29.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 61895511-2999-473d-839d-11607a74851a
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E25S33-20180622-080109-P-SEN-SPOT7_20210212_1726561wspkbpmgymy7_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [288685, 6360795],
+      [352158, 6360795],
+      [352158, 6349134],
+      [288685, 6349134],
+      [288685, 6360795]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [7774, 42315]
+    transform:
+      - 1.5
+      - 0.0
+      - 288685.5
+      - 0.0
+      - -1.5
+      - 6360795.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S33-20180622-080109-P-SEN-SPOT7_20210212_1726561wspkbpmgymy7_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S33-20180622-080109-P-SEN-SPOT7_20210212_1726561wspkbpmgymy7_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S33-20180622-080109-P-SEN-SPOT7_20210212_1726561wspkbpmgymy7_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S33-20180622-080109-P-SEN-SPOT7_20210212_1726561wspkbpmgymy7_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S33-20180622-080109-P-SEN-SPOT7_20210212_1726561wspkbpmgymy7_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2018-06-22T08:01:01.599203Z'
+  odc:processing_datetime: '20210212'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: fadf2dcf-4dc0-4d3d-bd1b-bf21ee68afe6
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E25S34-20150428-080457-P-SEN-SPOT7_20211116_09255911gmhehr9uh8l_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [257625, 6308974],
+      [324078, 6308974],
+      [324078, 6250236],
+      [257625, 6250236],
+      [257625, 6308974]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [39159, 44302]
+    transform:
+      - 1.5
+      - 0.0
+      - 257625.0
+      - 0.0
+      - -1.5
+      - 6308974.5
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S34-20150428-080457-P-SEN-SPOT7_20211116_09255911gmhehr9uh8l_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S34-20150428-080457-P-SEN-SPOT7_20211116_09255911gmhehr9uh8l_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S34-20150428-080457-P-SEN-SPOT7_20211116_09255911gmhehr9uh8l_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S34-20150428-080457-P-SEN-SPOT7_20211116_09255911gmhehr9uh8l_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S34-20150428-080457-P-SEN-SPOT7_20211116_09255911gmhehr9uh8l_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-28T08:04:55.055198Z'
+  odc:processing_datetime: '20211116'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 843f305f-c3bb-4b5c-80e8-0e66dac8b044
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E25S34-20150607-075635-P-SEN-SPOT7_20211116_0933431gg0jq3z5job3_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [259038, 6298791],
+      [321768, 6298791],
+      [321768, 6237804],
+      [259038, 6237804],
+      [259038, 6298791]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [40658, 41820]
+    transform:
+      - 1.5
+      - 0.0
+      - 259038.0
+      - 0.0
+      - -1.5
+      - 6298791.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S34-20150607-075635-P-SEN-SPOT7_20211116_0933431gg0jq3z5job3_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S34-20150607-075635-P-SEN-SPOT7_20211116_0933431gg0jq3z5job3_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S34-20150607-075635-P-SEN-SPOT7_20211116_0933431gg0jq3z5job3_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S34-20150607-075635-P-SEN-SPOT7_20211116_0933431gg0jq3z5job3_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S34-20150607-075635-P-SEN-SPOT7_20211116_0933431gg0jq3z5job3_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-06-07T07:56:35.766772Z'
+  odc:processing_datetime: '2021-11-16T16:12:48.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: d6a7c15e-a9f1-48ad-9f74-955ba1ce63f0
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E25S34-20170719-075854-P-SEN-SPOT7_20210212_0834361nhi0azdjohun_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [280783, 6271434],
+      [343536, 6271434],
+      [343536, 6205722],
+      [280783, 6205722],
+      [280783, 6271434]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [43808, 41835]
+    transform:
+      - 1.5
+      - 0.0
+      - 280783.5
+      - 0.0
+      - -1.5
+      - 6271434.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S34-20170719-075854-P-SEN-SPOT7_20210212_0834361nhi0azdjohun_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S34-20170719-075854-P-SEN-SPOT7_20210212_0834361nhi0azdjohun_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S34-20170719-075854-P-SEN-SPOT7_20210212_0834361nhi0azdjohun_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S34-20170719-075854-P-SEN-SPOT7_20210212_0834361nhi0azdjohun_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S34-20170719-075854-P-SEN-SPOT7_20210212_0834361nhi0azdjohun_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2017-07-19T07:58:54.929624Z'
+  odc:processing_datetime: '2021-02-12T12:15:01.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: ce232c34-797c-48dc-816e-f3174ee816d3
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E25S34-20171203-075723-P-SEN-SPOT7_20210212_1230361s6etxgg456bl_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [281119, 6241618],
+      [342852, 6241618],
+      [342852, 6211527],
+      [281119, 6211527],
+      [281119, 6241618]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [20061, 41155]
+    transform:
+      - 1.5
+      - 0.0
+      - 281119.5
+      - 0.0
+      - -1.5
+      - 6241618.5
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S34-20171203-075723-P-SEN-SPOT7_20210212_1230361s6etxgg456bl_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S34-20171203-075723-P-SEN-SPOT7_20210212_1230361s6etxgg456bl_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S34-20171203-075723-P-SEN-SPOT7_20210212_1230361s6etxgg456bl_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S34-20171203-075723-P-SEN-SPOT7_20210212_1230361s6etxgg456bl_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E25S34-20171203-075723-P-SEN-SPOT7_20210212_1230361s6etxgg456bl_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2017-12-03T07:57:23.652964Z'
+  odc:processing_datetime: '2021-02-12T14:42:14.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 809142e9-5b45-4566-a869-2cfcb6850f04
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E26S31-20171026-074852-P-SEN-SPOT7_20210212_12341710wdj933mdq5y_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [335505, 6577522],
+      [403416, 6577522],
+      [403416, 6504090],
+      [335505, 6504090],
+      [335505, 6577522]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [48955, 45274]
+    transform:
+      - 1.5
+      - 0.0
+      - 335505.0
+      - 0.0
+      - -1.5
+      - 6577522.5
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S31-20171026-074852-P-SEN-SPOT7_20210212_12341710wdj933mdq5y_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S31-20171026-074852-P-SEN-SPOT7_20210212_12341710wdj933mdq5y_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S31-20171026-074852-P-SEN-SPOT7_20210212_12341710wdj933mdq5y_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S31-20171026-074852-P-SEN-SPOT7_20210212_12341710wdj933mdq5y_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S31-20171026-074852-P-SEN-SPOT7_20210212_12341710wdj933mdq5y_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2017-10-26T07:48:52.303238Z'
+  odc:processing_datetime: '2021-02-12T15:42:28.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 36999a40-ad0b-4d63-ab84-fd8c524e613e
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E26S32-20150423-075328-P-SEN-SPOT7_20211116_0922501dh11em68utj3_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [413802, 6448890],
+      [478500, 6448890],
+      [478500, 6386802],
+      [413802, 6386802],
+      [413802, 6448890]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [41392, 43132]
+    transform:
+      - 1.5
+      - 0.0
+      - 413802.0
+      - 0.0
+      - -1.5
+      - 6448890.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S32-20150423-075328-P-SEN-SPOT7_20211116_0922501dh11em68utj3_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S32-20150423-075328-P-SEN-SPOT7_20211116_0922501dh11em68utj3_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S32-20150423-075328-P-SEN-SPOT7_20211116_0922501dh11em68utj3_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S32-20150423-075328-P-SEN-SPOT7_20211116_0922501dh11em68utj3_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S32-20150423-075328-P-SEN-SPOT7_20211116_0922501dh11em68utj3_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-23T07:53:28.201509Z'
+  odc:processing_datetime: '2021-11-16T14:17:02.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: d06e69d9-20de-46b6-8587-436599361eca
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E26S32-20170623-075809-P-SEN-SPOT7_20210212_0743301q4ugf5r8txqe_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [392862, 6491097],
+      [455754, 6491097],
+      [455754, 6425400],
+      [392862, 6425400],
+      [392862, 6491097]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [43798, 41928]
+    transform:
+      - 1.5
+      - 0.0
+      - 392862.0
+      - 0.0
+      - -1.5
+      - 6491097.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S32-20170623-075809-P-SEN-SPOT7_20210212_0743301q4ugf5r8txqe_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S32-20170623-075809-P-SEN-SPOT7_20210212_0743301q4ugf5r8txqe_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S32-20170623-075809-P-SEN-SPOT7_20210212_0743301q4ugf5r8txqe_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S32-20170623-075809-P-SEN-SPOT7_20210212_0743301q4ugf5r8txqe_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S32-20170623-075809-P-SEN-SPOT7_20210212_0743301q4ugf5r8txqe_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2017-06-23T07:58:09.863198Z'
+  odc:processing_datetime: '2021-02-12T09:51:50.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 3e7e871d-8bc4-4fd2-aaf8-d9bf8bd8aa26
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E26S32-20170623-075813-P-SEN-SPOT7_20210212_0747531lcm52ohvipvz_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [393003, 6464352],
+      [455754, 6464352],
+      [455754, 6425400],
+      [393003, 6425400],
+      [393003, 6464352]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [25968, 41834]
+    transform:
+      - 1.5
+      - 0.0
+      - 393003.0
+      - 0.0
+      - -1.5
+      - 6464352.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S32-20170623-075813-P-SEN-SPOT7_20210212_0747531lcm52ohvipvz_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S32-20170623-075813-P-SEN-SPOT7_20210212_0747531lcm52ohvipvz_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S32-20170623-075813-P-SEN-SPOT7_20210212_0747531lcm52ohvipvz_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S32-20170623-075813-P-SEN-SPOT7_20210212_0747531lcm52ohvipvz_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S32-20170623-075813-P-SEN-SPOT7_20210212_0747531lcm52ohvipvz_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2017-06-23T07:58:09.863198Z'
+  odc:processing_datetime: '20210212'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 467a8193-f093-4353-bf95-a3a97590aecd
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E26S33-20150402-080356-P-SEN-SPOT7_20211116_0839001pzud79wsgjyu_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [360954, 6428238],
+      [427896, 6428238],
+      [427896, 6353740],
+      [360954, 6353740],
+      [360954, 6428238]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [49665, 44628]
+    transform:
+      - 1.5
+      - 0.0
+      - 360954.0
+      - 0.0
+      - -1.5
+      - 6428238.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S33-20150402-080356-P-SEN-SPOT7_20211116_0839001pzud79wsgjyu_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S33-20150402-080356-P-SEN-SPOT7_20211116_0839001pzud79wsgjyu_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S33-20150402-080356-P-SEN-SPOT7_20211116_0839001pzud79wsgjyu_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S33-20150402-080356-P-SEN-SPOT7_20211116_0839001pzud79wsgjyu_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S33-20150402-080356-P-SEN-SPOT7_20211116_0839001pzud79wsgjyu_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-02T08:03:56.358301Z'
+  odc:processing_datetime: '2021-11-16T10:25:37.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: a2570103-a907-433c-85d8-2ba32bf9d7c1
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E26S33-20200321-075446-P-SEN-SPOT7_20210212_17452818b47e97gkzj9_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [334393, 6314553],
+      [398736, 6314553],
+      [398736, 6275082],
+      [334393, 6275082],
+      [334393, 6314553]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [26314, 42895]
+    transform:
+      - 1.5
+      - 0.0
+      - 334393.5
+      - 0.0
+      - -1.5
+      - 6314553.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S33-20200321-075446-P-SEN-SPOT7_20210212_17452818b47e97gkzj9_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S33-20200321-075446-P-SEN-SPOT7_20210212_17452818b47e97gkzj9_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S33-20200321-075446-P-SEN-SPOT7_20210212_17452818b47e97gkzj9_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S33-20200321-075446-P-SEN-SPOT7_20210212_17452818b47e97gkzj9_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S33-20200321-075446-P-SEN-SPOT7_20210212_17452818b47e97gkzj9_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2020-03-21T07:54:46.014828Z'
+  odc:processing_datetime: '2021-02-12T20:04:47.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: ccb318d0-bb7e-4935-96e1-bcf035653e7f
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E26S34-20150402-080504-P-SEN-SPOT7_20211116_08392317f5mvnj41n5m_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [338497, 6256299],
+      [407536, 6256299],
+      [407536, 6220944],
+      [338497, 6220944],
+      [338497, 6256299]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [23570, 46026]
+    transform:
+      - 1.5
+      - 0.0
+      - 338497.5
+      - 0.0
+      - -1.5
+      - 6256299.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S34-20150402-080504-P-SEN-SPOT7_20211116_08392317f5mvnj41n5m_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S34-20150402-080504-P-SEN-SPOT7_20211116_08392317f5mvnj41n5m_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S34-20150402-080504-P-SEN-SPOT7_20211116_08392317f5mvnj41n5m_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S34-20150402-080504-P-SEN-SPOT7_20211116_08392317f5mvnj41n5m_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E26S34-20150402-080504-P-SEN-SPOT7_20211116_08392317f5mvnj41n5m_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-02T08:05:04.558108Z'
+  odc:processing_datetime: '2021-11-16T10:29:50.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: ebba8334-509e-46fb-8bda-147ea0c475cd
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E27S30-20150423-075237-P-SEN-SPOT7_20211116_0922041szkl2o11w2qc_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [467869, 6659997],
+      [529176, 6659997],
+      [529176, 6594153],
+      [467869, 6594153],
+      [467869, 6659997]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [43896, 40871]
+    transform:
+      - 1.5
+      - 0.0
+      - 467869.5
+      - 0.0
+      - -1.5
+      - 6659997.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S30-20150423-075237-P-SEN-SPOT7_20211116_0922041szkl2o11w2qc_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S30-20150423-075237-P-SEN-SPOT7_20211116_0922041szkl2o11w2qc_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S30-20150423-075237-P-SEN-SPOT7_20211116_0922041szkl2o11w2qc_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S30-20150423-075237-P-SEN-SPOT7_20211116_0922041szkl2o11w2qc_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S30-20150423-075237-P-SEN-SPOT7_20211116_0922041szkl2o11w2qc_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-23T07:52:37.043774Z'
+  odc:processing_datetime: '2021-11-16T14:02:48.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 05c130df-3e6c-453e-adc2-5c47861df66a
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E27S31-20150416-075622-P-SEN-SPOT7_20211116_091234zs626ntagzjj_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [467811, 6605638],
+      [529374, 6605638],
+      [529374, 6545838],
+      [467811, 6545838],
+      [467811, 6605638]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [39867, 41042]
+    transform:
+      - 1.5
+      - 0.0
+      - 467811.0
+      - 0.0
+      - -1.5
+      - 6605638.5
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S31-20150416-075622-P-SEN-SPOT7_20211116_091234zs626ntagzjj_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S31-20150416-075622-P-SEN-SPOT7_20211116_091234zs626ntagzjj_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S31-20150416-075622-P-SEN-SPOT7_20211116_091234zs626ntagzjj_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S31-20150416-075622-P-SEN-SPOT7_20211116_091234zs626ntagzjj_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S31-20150416-075622-P-SEN-SPOT7_20211116_091234zs626ntagzjj_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-16T07:56:22.829646Z'
+  odc:processing_datetime: '2021-11-16T12:35:56.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: fcc5e6d6-d4a6-4a8a-9a31-501cdd6187ff
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E27S31-20150423-075243-P-SEN-SPOT7_20211116_0922261vtrunfrozdji_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [467913, 6611968],
+      [529230, 6611968],
+      [529230, 6546276],
+      [467913, 6546276],
+      [467913, 6611968]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [43795, 40878]
+    transform:
+      - 1.5
+      - 0.0
+      - 467913.0
+      - 0.0
+      - -1.5
+      - 6611968.5
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S31-20150423-075243-P-SEN-SPOT7_20211116_0922261vtrunfrozdji_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S31-20150423-075243-P-SEN-SPOT7_20211116_0922261vtrunfrozdji_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S31-20150423-075243-P-SEN-SPOT7_20211116_0922261vtrunfrozdji_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S31-20150423-075243-P-SEN-SPOT7_20211116_0922261vtrunfrozdji_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S31-20150423-075243-P-SEN-SPOT7_20211116_0922261vtrunfrozdji_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-23T07:52:43.861548Z'
+  odc:processing_datetime: '2021-11-16T14:04:19.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 48427363-aa3e-4645-bf0a-6022ce643fed
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E27S31-20150428-080348-P-SEN-SPOT7_20211116_0924581bwbsk9x1i8yv_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [464043, 6634527],
+      [534138, 6634527],
+      [534138, 6598476],
+      [464043, 6598476],
+      [464043, 6634527]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [24034, 46730]
+    transform:
+      - 1.5
+      - 0.0
+      - 464043.0
+      - 0.0
+      - -1.5
+      - 6634527.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S31-20150428-080348-P-SEN-SPOT7_20211116_0924581bwbsk9x1i8yv_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S31-20150428-080348-P-SEN-SPOT7_20211116_0924581bwbsk9x1i8yv_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S31-20150428-080348-P-SEN-SPOT7_20211116_0924581bwbsk9x1i8yv_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S31-20150428-080348-P-SEN-SPOT7_20211116_0924581bwbsk9x1i8yv_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S31-20150428-080348-P-SEN-SPOT7_20211116_0924581bwbsk9x1i8yv_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-28T08:03:48.446246Z'
+  odc:processing_datetime: '2021-11-16T14:46:49.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 4298a7f5-34ef-4de5-8b37-b0fe74054d24
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E27S31-20150430-074914-P-SEN-SPOT7_20211116_0926521rl1njvud6bv3_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [465574, 6607554],
+      [531222, 6607554],
+      [531222, 6530982],
+      [465574, 6530982],
+      [465574, 6607554]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [51048, 43765]
+    transform:
+      - 1.5
+      - 0.0
+      - 465574.5
+      - 0.0
+      - -1.5
+      - 6607554.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S31-20150430-074914-P-SEN-SPOT7_20211116_0926521rl1njvud6bv3_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S31-20150430-074914-P-SEN-SPOT7_20211116_0926521rl1njvud6bv3_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S31-20150430-074914-P-SEN-SPOT7_20211116_0926521rl1njvud6bv3_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S31-20150430-074914-P-SEN-SPOT7_20211116_0926521rl1njvud6bv3_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S31-20150430-074914-P-SEN-SPOT7_20211116_0926521rl1njvud6bv3_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-30T07:49:14.044278Z'
+  odc:processing_datetime: '2021-11-16T15:27:31.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: e742bcdf-aa57-4d5b-9df3-0572ca17ebb8
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E27S31-20170623-075719-P-SEN-SPOT7_20210212_0742261j4xg7zi96c4p_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [443443, 6621559],
+      [509868, 6621559],
+      [509868, 6543426],
+      [443443, 6543426],
+      [443443, 6621559]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [52089, 44283]
+    transform:
+      - 1.5
+      - 0.0
+      - 443443.5
+      - 0.0
+      - -1.5
+      - 6621559.5
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S31-20170623-075719-P-SEN-SPOT7_20210212_0742261j4xg7zi96c4p_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S31-20170623-075719-P-SEN-SPOT7_20210212_0742261j4xg7zi96c4p_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S31-20170623-075719-P-SEN-SPOT7_20210212_0742261j4xg7zi96c4p_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S31-20170623-075719-P-SEN-SPOT7_20210212_0742261j4xg7zi96c4p_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S31-20170623-075719-P-SEN-SPOT7_20210212_0742261j4xg7zi96c4p_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2017-06-23T07:57:19.715506Z'
+  odc:processing_datetime: '2021-02-12T09:32:36.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 7205748c-09c5-47e7-8a57-f26faab76b2c
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E27S32-20180105-075306-P-SEN-SPOT7_20210212_1733041uwgvgg8ao9po_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [498531, 6458889],
+      [559758, 6458889],
+      [559758, 6399582],
+      [498531, 6399582],
+      [498531, 6458889]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [39538, 40818]
+    transform:
+      - 1.5
+      - 0.0
+      - 498531.0
+      - 0.0
+      - -1.5
+      - 6458889.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S32-20180105-075306-P-SEN-SPOT7_20210212_1733041uwgvgg8ao9po_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S32-20180105-075306-P-SEN-SPOT7_20210212_1733041uwgvgg8ao9po_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S32-20180105-075306-P-SEN-SPOT7_20210212_1733041uwgvgg8ao9po_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S32-20180105-075306-P-SEN-SPOT7_20210212_1733041uwgvgg8ao9po_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S32-20180105-075306-P-SEN-SPOT7_20210212_1733041uwgvgg8ao9po_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2018-01-05T07:53:06.199277Z'
+  odc:processing_datetime: '2021-02-12T18:15:16.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: ab859d63-d604-4de2-9889-5dc834a5b421
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E27S33-20150416-075730-P-SEN-SPOT7_20211116_0913241hce33ygl7do0_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [465013, 6339411],
+      [532950, 6339411],
+      [532950, 6274302],
+      [465013, 6274302],
+      [465013, 6339411]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [43406, 45291]
+    transform:
+      - 1.5
+      - 0.0
+      - 465013.5
+      - 0.0
+      - -1.5
+      - 6339411.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S33-20150416-075730-P-SEN-SPOT7_20211116_0913241hce33ygl7do0_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S33-20150416-075730-P-SEN-SPOT7_20211116_0913241hce33ygl7do0_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S33-20150416-075730-P-SEN-SPOT7_20211116_0913241hce33ygl7do0_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S33-20150416-075730-P-SEN-SPOT7_20211116_0913241hce33ygl7do0_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S33-20150416-075730-P-SEN-SPOT7_20211116_0913241hce33ygl7do0_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-16T07:57:30.768017Z'
+  odc:processing_datetime: '2021-11-16T13:10:00.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 068b1ff1-36c8-47c3-bfb1-0182c6f01a24
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E27S33-20150425-073819-P-SEN-SPOT7_20211116_0924061t1h7o6ejir57_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [496561, 6320532],
+      [537360, 6320532],
+      [537360, 6283735],
+      [496561, 6283735],
+      [496561, 6320532]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [24531, 27199]
+    transform:
+      - 1.5
+      - 0.0
+      - 496561.5
+      - 0.0
+      - -1.5
+      - 6320532.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S33-20150425-073819-P-SEN-SPOT7_20211116_0924061t1h7o6ejir57_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S33-20150425-073819-P-SEN-SPOT7_20211116_0924061t1h7o6ejir57_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S33-20150425-073819-P-SEN-SPOT7_20211116_0924061t1h7o6ejir57_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S33-20150425-073819-P-SEN-SPOT7_20211116_0924061t1h7o6ejir57_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E27S33-20150425-073819-P-SEN-SPOT7_20211116_0924061t1h7o6ejir57_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-25T07:38:19.567635Z'
+  odc:processing_datetime: '2021-11-16T14:37:36.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 3f49dcbe-03a1-423a-b665-429ff35f8a96
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E28S30-20170630-075311-P-SEN-SPOT7_20210212_0737091ti1fud0xg7r6_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [602760, 6692673],
+      [671496, 6692673],
+      [671496, 6609858],
+      [602760, 6609858],
+      [602760, 6692673]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [55210, 45824]
+    transform:
+      - 1.5
+      - 0.0
+      - 602760.0
+      - 0.0
+      - -1.5
+      - 6692673.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S30-20170630-075311-P-SEN-SPOT7_20210212_0737091ti1fud0xg7r6_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S30-20170630-075311-P-SEN-SPOT7_20210212_0737091ti1fud0xg7r6_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S30-20170630-075311-P-SEN-SPOT7_20210212_0737091ti1fud0xg7r6_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S30-20170630-075311-P-SEN-SPOT7_20210212_0737091ti1fud0xg7r6_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S30-20170630-075311-P-SEN-SPOT7_20210212_0737091ti1fud0xg7r6_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2017-06-30T07:53:11.932270Z'
+  odc:processing_datetime: '2021-02-12T08:13:02.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 5b6e3203-e45d-4a7d-a4ef-80f8506e5a4f
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E28S31-20150430-074857-P-SEN-SPOT7_20211116_0926371mhbwf7emkhzo_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [572757, 6648648],
+      [636702, 6648648],
+      [636702, 6587997],
+      [572757, 6587997],
+      [572757, 6648648]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [40434, 42630]
+    transform:
+      - 1.5
+      - 0.0
+      - 572757.0
+      - 0.0
+      - -1.5
+      - 6648648.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S31-20150430-074857-P-SEN-SPOT7_20211116_0926371mhbwf7emkhzo_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S31-20150430-074857-P-SEN-SPOT7_20211116_0926371mhbwf7emkhzo_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S31-20150430-074857-P-SEN-SPOT7_20211116_0926371mhbwf7emkhzo_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S31-20150430-074857-P-SEN-SPOT7_20211116_0926371mhbwf7emkhzo_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S31-20150430-074857-P-SEN-SPOT7_20211116_0926371mhbwf7emkhzo_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-30T07:48:57.391324Z'
+  odc:processing_datetime: '2021-11-16T15:05:00.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 1ff72d5e-015e-497c-b563-787539efa464
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E28S32-20150416-075645-P-SEN-SPOT7_20211116_0912541pb9qiapr6wq1_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [569574, 6440554],
+      [636819, 6440554],
+      [636819, 6418920],
+      [569574, 6418920],
+      [569574, 6440554]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [14423, 44830]
+    transform:
+      - 1.5
+      - 0.0
+      - 569574.0
+      - 0.0
+      - -1.5
+      - 6440554.5
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S32-20150416-075645-P-SEN-SPOT7_20211116_0912541pb9qiapr6wq1_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S32-20150416-075645-P-SEN-SPOT7_20211116_0912541pb9qiapr6wq1_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S32-20150416-075645-P-SEN-SPOT7_20211116_0912541pb9qiapr6wq1_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S32-20150416-075645-P-SEN-SPOT7_20211116_0912541pb9qiapr6wq1_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S32-20150416-075645-P-SEN-SPOT7_20211116_0912541pb9qiapr6wq1_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-16T07:56:39.415658Z'
+  odc:processing_datetime: '20211116'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: a72cf069-6c51-4898-9e41-66a65cdc919d
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E28S32-20150425-073753-P-SEN-SPOT7_20211116_0923511pukagjtaunjh_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [568092, 6442882],
+      [636147, 6442882],
+      [636147, 6416484],
+      [568092, 6416484],
+      [568092, 6442882]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [17599, 45370]
+    transform:
+      - 1.5
+      - 0.0
+      - 568092.0
+      - 0.0
+      - -1.5
+      - 6442882.5
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S32-20150425-073753-P-SEN-SPOT7_20211116_0923511pukagjtaunjh_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S32-20150425-073753-P-SEN-SPOT7_20211116_0923511pukagjtaunjh_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S32-20150425-073753-P-SEN-SPOT7_20211116_0923511pukagjtaunjh_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S32-20150425-073753-P-SEN-SPOT7_20211116_0923511pukagjtaunjh_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S32-20150425-073753-P-SEN-SPOT7_20211116_0923511pukagjtaunjh_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-25T07:37:47.543226Z'
+  odc:processing_datetime: '20211116'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: bb8d9264-d597-442d-93d0-06456f8b6352
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E28S32-20171121-074823-P-SEN-SPOT7_20210212_17310817c1hl0a31soo_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [601698, 6472683],
+      [666913, 6472683],
+      [666913, 6436644],
+      [601698, 6436644],
+      [601698, 6472683]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [24026, 43477]
+    transform:
+      - 1.5
+      - 0.0
+      - 601698.0
+      - 0.0
+      - -1.5
+      - 6472683.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S32-20171121-074823-P-SEN-SPOT7_20210212_17310817c1hl0a31soo_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S32-20171121-074823-P-SEN-SPOT7_20210212_17310817c1hl0a31soo_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S32-20171121-074823-P-SEN-SPOT7_20210212_17310817c1hl0a31soo_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S32-20171121-074823-P-SEN-SPOT7_20210212_17310817c1hl0a31soo_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S32-20171121-074823-P-SEN-SPOT7_20210212_17310817c1hl0a31soo_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2017-11-21T07:48:18.475123Z'
+  odc:processing_datetime: '20210212'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 9dd6efd2-9795-4ad7-be73-4075b178b4fc
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E28S33-20150416-075659-P-SEN-SPOT7_20211116_09130610fr3q55i2vv7_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [599829, 6392745],
+      [637254, 6392745],
+      [637254, 6362766],
+      [599829, 6362766],
+      [599829, 6392745]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [19986, 24950]
+    transform:
+      - 1.5
+      - 0.0
+      - 599829.0
+      - 0.0
+      - -1.5
+      - 6392745.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S33-20150416-075659-P-SEN-SPOT7_20211116_09130610fr3q55i2vv7_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S33-20150416-075659-P-SEN-SPOT7_20211116_09130610fr3q55i2vv7_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S33-20150416-075659-P-SEN-SPOT7_20211116_09130610fr3q55i2vv7_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S33-20150416-075659-P-SEN-SPOT7_20211116_09130610fr3q55i2vv7_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S33-20150416-075659-P-SEN-SPOT7_20211116_09130610fr3q55i2vv7_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-16T07:56:59.219887Z'
+  odc:processing_datetime: '2021-11-16T12:31:49.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 6e850fa8-bd1c-46b9-a939-17c5fa2f7a7e
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E28S33-20150425-073807-P-SEN-SPOT7_20211116_0923591wm3p3u5b8uqq_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [601683, 6395004],
+      [637086, 6395004],
+      [637086, 6361735],
+      [601683, 6361735],
+      [601683, 6395004]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [22179, 23602]
+    transform:
+      - 1.5
+      - 0.0
+      - 601683.0
+      - 0.0
+      - -1.5
+      - 6395004.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S33-20150425-073807-P-SEN-SPOT7_20211116_0923591wm3p3u5b8uqq_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S33-20150425-073807-P-SEN-SPOT7_20211116_0923591wm3p3u5b8uqq_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S33-20150425-073807-P-SEN-SPOT7_20211116_0923591wm3p3u5b8uqq_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S33-20150425-073807-P-SEN-SPOT7_20211116_0923591wm3p3u5b8uqq_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E28S33-20150425-073807-P-SEN-SPOT7_20211116_0923591wm3p3u5b8uqq_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-25T07:38:07.592884Z'
+  odc:processing_datetime: '2021-11-16T14:11:19.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 4b735766-322a-4f00-ac83-058f0c25d6e4
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E29S30-20150406-073357-P-SEN-SPOT7_20211116_08404713od7bzv7t0cz_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [679273, 6670821],
+      [706884, 6670821],
+      [706884, 6660288],
+      [679273, 6660288],
+      [679273, 6670821]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [7022, 18407]
+    transform:
+      - 1.5
+      - 0.0
+      - 679273.5
+      - 0.0
+      - -1.5
+      - 6670821.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E29S30-20150406-073357-P-SEN-SPOT7_20211116_08404713od7bzv7t0cz_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E29S30-20150406-073357-P-SEN-SPOT7_20211116_08404713od7bzv7t0cz_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E29S30-20150406-073357-P-SEN-SPOT7_20211116_08404713od7bzv7t0cz_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E29S30-20150406-073357-P-SEN-SPOT7_20211116_08404713od7bzv7t0cz_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E29S30-20150406-073357-P-SEN-SPOT7_20211116_08404713od7bzv7t0cz_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-06T07:33:57.493542Z'
+  odc:processing_datetime: '2021-11-16T10:44:02.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 9afff733-d968-4075-8e25-1ca9eecc560b
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E29S30-20150418-074140-P-SEN-SPOT7_20211116_09181912i6vnhwgrmpw_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [624049, 6663324],
+      [690924, 6663324],
+      [690924, 6597840],
+      [624049, 6597840],
+      [624049, 6663324]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [43656, 44583]
+    transform:
+      - 1.5
+      - 0.0
+      - 624049.5
+      - 0.0
+      - -1.5
+      - 6663324.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E29S30-20150418-074140-P-SEN-SPOT7_20211116_09181912i6vnhwgrmpw_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E29S30-20150418-074140-P-SEN-SPOT7_20211116_09181912i6vnhwgrmpw_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E29S30-20150418-074140-P-SEN-SPOT7_20211116_09181912i6vnhwgrmpw_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E29S30-20150418-074140-P-SEN-SPOT7_20211116_09181912i6vnhwgrmpw_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E29S30-20150418-074140-P-SEN-SPOT7_20211116_09181912i6vnhwgrmpw_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-18T07:41:40.206506Z'
+  odc:processing_datetime: '2021-11-16T13:36:12.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 5025669c-6382-4067-8772-ea994b9daef4
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E29S30-20171019-075129-P-SEN-SPOT7_20210212_1238241j9c7e77wbz9t_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [659239, 6735681],
+      [723906, 6735681],
+      [723906, 6664728],
+      [659239, 6664728],
+      [659239, 6735681]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [47302, 43111]
+    transform:
+      - 1.5
+      - 0.0
+      - 659239.5
+      - 0.0
+      - -1.5
+      - 6735681.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E29S30-20171019-075129-P-SEN-SPOT7_20210212_1238241j9c7e77wbz9t_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E29S30-20171019-075129-P-SEN-SPOT7_20210212_1238241j9c7e77wbz9t_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E29S30-20171019-075129-P-SEN-SPOT7_20210212_1238241j9c7e77wbz9t_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E29S30-20171019-075129-P-SEN-SPOT7_20210212_1238241j9c7e77wbz9t_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E29S30-20171019-075129-P-SEN-SPOT7_20210212_1238241j9c7e77wbz9t_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2017-10-19T07:51:29.304177Z'
+  odc:processing_datetime: '2021-02-12T16:15:29.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 74353973-9576-4502-a436-3482ae3c6897
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E29S32-20171019-075231-P-SEN-SPOT7_20210212_1239031k1q999jbam0l_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [652705, 6457017],
+      [702928, 6457017],
+      [702928, 6407658],
+      [652705, 6407658],
+      [652705, 6457017]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [32906, 33482]
+    transform:
+      - 1.5
+      - 0.0
+      - 652705.5
+      - 0.0
+      - -1.5
+      - 6457017.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E29S32-20171019-075231-P-SEN-SPOT7_20210212_1239031k1q999jbam0l_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E29S32-20171019-075231-P-SEN-SPOT7_20210212_1239031k1q999jbam0l_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E29S32-20171019-075231-P-SEN-SPOT7_20210212_1239031k1q999jbam0l_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E29S32-20171019-075231-P-SEN-SPOT7_20210212_1239031k1q999jbam0l_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E29S32-20171019-075231-P-SEN-SPOT7_20210212_1239031k1q999jbam0l_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2017-10-19T07:52:31.681353Z'
+  odc:processing_datetime: '2021-02-12T16:29:15.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 9eb50494-adce-4978-9c5a-3432351226c8
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E29S32-20171102-074518-P-SEN-SPOT7_20210212_12315319eyx400lh99t_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [655615, 6510690],
+      [719674, 6510690],
+      [719674, 6451627],
+      [655615, 6451627],
+      [655615, 6510690]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [39375, 42706]
+    transform:
+      - 1.5
+      - 0.0
+      - 655615.5
+      - 0.0
+      - -1.5
+      - 6510690.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E29S32-20171102-074518-P-SEN-SPOT7_20210212_12315319eyx400lh99t_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E29S32-20171102-074518-P-SEN-SPOT7_20210212_12315319eyx400lh99t_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E29S32-20171102-074518-P-SEN-SPOT7_20210212_12315319eyx400lh99t_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E29S32-20171102-074518-P-SEN-SPOT7_20210212_12315319eyx400lh99t_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E29S32-20171102-074518-P-SEN-SPOT7_20210212_12315319eyx400lh99t_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2017-11-02T07:45:18.700154Z'
+  odc:processing_datetime: '2021-02-12T14:53:44.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: e8907aa9-222d-4152-8dc8-894b353a174e
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E30S31-20150411-074527-P-SEN-SPOT7_20211116_0846121r9150odocxes_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [207391, 6603300],
+      [276012, 6603300],
+      [276012, 6525919],
+      [207391, 6525919],
+      [207391, 6603300]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [51587, 45747]
+    transform:
+      - 1.5
+      - 0.0
+      - 207391.5
+      - 0.0
+      - -1.5
+      - 6603300.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E30S31-20150411-074527-P-SEN-SPOT7_20211116_0846121r9150odocxes_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E30S31-20150411-074527-P-SEN-SPOT7_20211116_0846121r9150odocxes_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E30S31-20150411-074527-P-SEN-SPOT7_20211116_0846121r9150odocxes_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E30S31-20150411-074527-P-SEN-SPOT7_20211116_0846121r9150odocxes_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E30S31-20150411-074527-P-SEN-SPOT7_20211116_0846121r9150odocxes_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-11T07:45:27.227066Z'
+  odc:processing_datetime: '2021-11-16T12:05:31.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: f723e91e-8da7-428f-aced-198d2ca3bdd8
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E30S31-20150411-074541-P-SEN-SPOT7_20211116_08462316lvu0n8h9mcs_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [725055, 6539103],
+      [789168, 6539103],
+      [789168, 6486894],
+      [725055, 6486894],
+      [725055, 6539103]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [34806, 42742]
+    transform:
+      - 1.5
+      - 0.0
+      - 725055.0
+      - 0.0
+      - -1.5
+      - 6539103.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E30S31-20150411-074541-P-SEN-SPOT7_20211116_08462316lvu0n8h9mcs_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E30S31-20150411-074541-P-SEN-SPOT7_20211116_08462316lvu0n8h9mcs_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E30S31-20150411-074541-P-SEN-SPOT7_20211116_08462316lvu0n8h9mcs_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E30S31-20150411-074541-P-SEN-SPOT7_20211116_08462316lvu0n8h9mcs_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E30S31-20150411-074541-P-SEN-SPOT7_20211116_08462316lvu0n8h9mcs_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-11T07:45:41.767300Z'
+  odc:processing_datetime: '2021-11-16T11:54:44.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 67475323-6da4-4318-bb9c-f43343c2cedf
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E30S31-20150418-074056-P-SEN-SPOT7_20211116_09163116qpph4gi1htk_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [730542, 6596932],
+      [792817, 6596932],
+      [792817, 6567648],
+      [730542, 6567648],
+      [730542, 6596932]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [19523, 41517]
+    transform:
+      - 1.5
+      - 0.0
+      - 730542.0
+      - 0.0
+      - -1.5
+      - 6596932.5
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E30S31-20150418-074056-P-SEN-SPOT7_20211116_09163116qpph4gi1htk_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E30S31-20150418-074056-P-SEN-SPOT7_20211116_09163116qpph4gi1htk_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E30S31-20150418-074056-P-SEN-SPOT7_20211116_09163116qpph4gi1htk_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E30S31-20150418-074056-P-SEN-SPOT7_20211116_09163116qpph4gi1htk_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E30S31-20150418-074056-P-SEN-SPOT7_20211116_09163116qpph4gi1htk_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-18T07:40:51.176049Z'
+  odc:processing_datetime: '20211116'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 98ca049f-ceca-493f-a719-77acc7e8d5c2
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E30S31-20150425-073730-P-SEN-SPOT7_20211116_09232511luast0f4s3z_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [729271, 6592390],
+      [793110, 6592390],
+      [793110, 6529644],
+      [729271, 6529644],
+      [729271, 6592390]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [41831, 42559]
+    transform:
+      - 1.5
+      - 0.0
+      - 729271.5
+      - 0.0
+      - -1.5
+      - 6592390.5
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E30S31-20150425-073730-P-SEN-SPOT7_20211116_09232511luast0f4s3z_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E30S31-20150425-073730-P-SEN-SPOT7_20211116_09232511luast0f4s3z_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E30S31-20150425-073730-P-SEN-SPOT7_20211116_09232511luast0f4s3z_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E30S31-20150425-073730-P-SEN-SPOT7_20211116_09232511luast0f4s3z_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E30S31-20150425-073730-P-SEN-SPOT7_20211116_09232511luast0f4s3z_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2015-04-25T07:37:30.017182Z'
+  odc:processing_datetime: '2021-11-16T14:20:00.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 95b79b41-e256-4177-a58e-6d354f6be8a5
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E30S31-20171021-073705-P-SEN-SPOT7_20210212_1220511tiv007e7rkn1_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [191998, 6562740],
+      [239112, 6562740],
+      [239112, 6513534],
+      [191998, 6513534],
+      [191998, 6562740]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [32804, 31409]
+    transform:
+      - 1.5
+      - 0.0
+      - 191998.5
+      - 0.0
+      - -1.5
+      - 6562740.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E30S31-20171021-073705-P-SEN-SPOT7_20210212_1220511tiv007e7rkn1_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E30S31-20171021-073705-P-SEN-SPOT7_20210212_1220511tiv007e7rkn1_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E30S31-20171021-073705-P-SEN-SPOT7_20210212_1220511tiv007e7rkn1_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E30S31-20171021-073705-P-SEN-SPOT7_20210212_1220511tiv007e7rkn1_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E30S31-20171021-073705-P-SEN-SPOT7_20210212_1220511tiv007e7rkn1_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2017-10-21T07:37:05.545436Z'
+  odc:processing_datetime: '2021-02-12T12:40:13.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
+---
+id: 8ef2b635-48da-493e-8ee8-ab585c659074
+$schema: 'https://schemas.opendatacube.org/dataset'
+
+label: S7-E30S31-20171217-074849-P-SEN-SPOT7_20210212_12364811sogqfw4oed0_1_ORTHO
+
+product:
+  name: spot7_snbar_card4l_harmonized_test
+
+crs: 'epsg:32735'
+
+geometry:
+  type: Polygon
+  coordinates: [
+    [
+      [189036, 6604656],
+      [238218, 6604656],
+      [238218, 6555702],
+      [189036, 6555702],
+      [189036, 6604656]
+    ]
+  ]
+
+grids:
+  default:
+    shape: [32636, 32788]
+    transform:
+      - 1.5
+      - 0.0
+      - 189036.0
+      - 0.0
+      - -1.5
+      - 6604656.0
+      - 0.0
+      - 0.0
+      - 1.0
+
+measurements:
+  red:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E30S31-20171217-074849-P-SEN-SPOT7_20210212_12364811sogqfw4oed0_1_ORTHO_PSH.pix
+  green:
+    layer: 2
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E30S31-20171217-074849-P-SEN-SPOT7_20210212_12364811sogqfw4oed0_1_ORTHO_PSH.pix
+  blue:
+    layer: 3
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E30S31-20171217-074849-P-SEN-SPOT7_20210212_12364811sogqfw4oed0_1_ORTHO_PSH.pix
+  nir:
+    layer: 4
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E30S31-20171217-074849-P-SEN-SPOT7_20210212_12364811sogqfw4oed0_1_ORTHO_PSH.pix
+  spclass:
+    layer: 1
+    path: /DESASTORE1/Output/ARD/South_Africa/Eastern_Cape/Auto_Spec_Normalization/pansharp_Scaled_0_1/S7-E30S31-20171217-074849-P-SEN-SPOT7_20210212_12364811sogqfw4oed0_1_ORTHO_CLS.pix
+
+properties:
+  datetime: '2017-12-17T07:48:49.364992Z'
+  odc:processing_datetime: '2021-02-12T16:02:34.00Z'
+  eo:platform: SPOT-7
+  processing:level: L4
+  desa:product_type: ARD
+  desa:groundstation_code: DRS
+
+lineage:
+  source_datasets: {}
